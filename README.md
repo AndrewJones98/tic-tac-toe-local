@@ -1,18 +1,11 @@
-## Getting Started
+#Tic-Tac-Toe
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This code implements a multiplayer multithread tic-tac-toe game. A server is started where a large number of clients can connect and play. 
 
-## Folder Structure
+#Features
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Real-time chat
+Auto-move for players that take too long
+Handling for more than two players
+A Gui featuring A quit button, a countdown timer and a turn label indicating which players turn it is
+A thread-per-connection model (A new thread for each connected player)
