@@ -1,8 +1,8 @@
-#Tic-Tac-Toe
+# Tic-Tac-Toe
 
 This code implements a multiplayer multithread tic-tac-toe game. A server is started where a large number of clients can connect and play. 
 
-#Features
+## Features
 
 Real-time chat
 Auto-move for players that take too long
