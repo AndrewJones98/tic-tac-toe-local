@@ -16,3 +16,5 @@ A Gui featuring A quit button, a countdown timer and a turn label indicating whi
 
 ![Gui Example](/guiexample.png/)
 
+Use "java TicTacToeServer [ip] [port]" and "java TicTacToeClient [username] [ip] [port]"
+
